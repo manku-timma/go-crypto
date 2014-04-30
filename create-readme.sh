@@ -1,3 +1,4 @@
+cat <<EOT
 go-crypto
 =========
 
@@ -9,10 +10,13 @@ These pieces of code are probably insecure and wrong. So use it only as a
 starting point. I will make corrections based on my learning and based on
 feedback.
 
-How to run: Just go into a numbered directory and do `go run src.go`.
+How to run: Just go into a numbered directory and do \`go run src.go\`.
 
-- [1](1)
- - Create a public-private keypair.
-- [2](2)
- - Create a public-private keypair, and create a self-signed certificate
-using that keypair.
+EOT
+
+for i in `ls -d [0-9]*`
+do
+	echo "- [$i]($i)"
+	echo -n " - "
+	cat $i/README.md
+done
