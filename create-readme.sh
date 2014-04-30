@@ -16,7 +16,6 @@ EOT
 
 for i in `ls -d [0-9]*`
 do
-	echo "- [$i]($i)"
-	echo -n " - "
+	echo -n "- [$i]($i): "
 	cat $i/README.md
 done

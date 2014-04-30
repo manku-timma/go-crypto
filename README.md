@@ -11,8 +11,6 @@ feedback.
 
 How to run: Just go into a numbered directory and do `go run src.go`.
 
-- [1](1)
- - Create a public-private keypair.
-- [2](2)
- - Create a public-private keypair, and create a self-signed certificate
+- [1](1): Create a public-private keypair.
+- [2](2): Create a public-private keypair, and create a self-signed certificate
 using that keypair.
