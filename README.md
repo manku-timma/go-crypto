@@ -11,5 +11,5 @@ feedback.
 
 How to run: Just go into a numbered directory and do `go run src.go`.
 
-[Create a public-private keypair][1/README.md]
-[Create a self signed certificate][2/README.md]
+[Create a public-private keypair](1/README.md)
+[Create a self signed certificate](2/README.md)
